@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5 Practice Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    table, th, td {
+      border: 1px solid #333;
+      border-collapse: collapse;
+      padding: 10px;
+    }
+    form {
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Page Header -->
+  <header>
+    <h1>Welcome to the world of Software Engineering </h1>
+  </header>
+
+  <!-- Ordered List with Roman Numerals -->
+  <section>
+    <h2>My Goals</h2>
+    <ol type="I">
+      <li>Master a Specific Technology or Stack</li>
+      <li>Contribute to Open Source</li>
+      <li>Build and Launch a Full Project or Startup</li>
+      <li>Improve System Design and Architecture Skills</li>
+      <li>Mentor Others and Grow as a Leader</li>
+    </ol>
+  </section>
+
+  <!-- External Image from Pexels -->
+  <section>
+    <h2>Inspiration Image</h2>
+    <img src="https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg" 
+         alt="Nature Scenery from Pexels" 
+         width="500">
+  </section>
+
+  <!-- Table of Contacts -->
+  <section>
+    <h2>Contact List</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Mobile</th>
+        <th>Email</th>
+      </tr>
+      <tr>
+        <td>Marlone Edukon</td>
+        <td>23 nadapal Street</td>
+        <td>+254757727706</td>
+        <td>edukonmahlon@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Elimlim Wilfred</td>
+        <td>456 Oak Avenue</td>
+        <td>+254717437680</td>
+        <td>elimlimwilfred@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Mary Atabo</td>
+        <td>789 Pine Road</td>
+        <td>+254756783456</td>
+        <td>maryatabo@gmail.com</td>
+      </tr>
+      <tr>
+        <td>James Emoja</td>
+        <td>321 Palm Lane</td>
+        <td>+254767894534</td>
+        <td>emojajames@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Mathew Ebenyo</td>
+        <td>420 street</td>
+        <td>+254789764523</td>
+        <td>ebenyomathew@gmail.com</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Registration Form with Validation -->
+  <section>
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+
+      <!-- Name -->
+      <label for="name">Full Name:</label><br>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+      <!-- Email -->
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="e.g. name@gmail.com" required><br><br>
+
+      <!-- Password -->
+      <label for="password">Password:</label><br>
+      <input type="password" id="password" name="password" placeholder="Minimum 6 characters" minlength="6" required><br><br>
+
+      <!-- Date -->
+      <label for="dob">Date of Birth:</label><br>
+      <input type="date" id="dob" name="dob" required><br><br>
+
+      <!-- Dropdown -->
+      <label for="country">Country:</label><br>
+      <select id="country" name="country" required>
+        <option value="">Select your country</option>
+        <option value="Kenya">Kenya</option>
+        <option value="Uganda">Uganda</option>
+        <option value="Tanzania">Tanzania</option>
+      </select><br><br>
+
+      <!-- Radio Buttons -->
+      <label>Gender:</label><br>
+      <input type="radio" id="male" name="gender" value="Male" required>
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="Female">
+      <label for="female">Female</label><br><br>
+
+      <!-- Checkboxes -->
+      <label>Interests:</label><br>
+      <input type="checkbox" id="coding" name="interest" value="Coding">
+      <label for="coding">Coding</label>
+      <input type="checkbox" id="music" name="interest" value="Music">
+      <label for="music">Music</label>
+      <input type="checkbox" id="travel" name="interest" value="Travel">
+      <label for="travel">Travel</label><br><br>
+
+      <!-- Submit -->
+      <input type="submit" value="Register">
+    </form>
+  </section>
+
+  <!-- Multimedia Section -->
+  <section>
+    <h2>Multimedia </h2>
+
+    <!-- Audio -->
+    <h3>Listen to Music</h3>
+    <audio controls>
+      <source src="Turu gang_-_mama.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <!-- Video -->
+    <h3>Watch a Video</h3>
+    <video width="400" controls>
+      <source src="https://www.youtube.com/embed/iIxZrYzJJ7I?si=IR_wrvOOtsP-IoyB" type="video/mp4">
+    </video>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Joeph Eyanae; 2025 All Right Reserved</p>
+  </footer>
+
+</body>
+</html>
